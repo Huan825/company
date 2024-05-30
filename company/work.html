@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Tailwind CSS landing template">
+    <meta name="author" content="MyraStudio">
+
+    
+
+    <title>company name</title>
+
+    <!-- pe-icon-7 Icons css file -->
+    <link href="static/css/pe-icon-7-stroke.css" rel="stylesheet">
+    
+    <!-- icofont Icons css file -->
+    <link href="static/css/icofont.css" rel="stylesheet">
+    
+    <!-- Tailwind CSS core file -->
+    <link href="static/css/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+
+<body class="bg-[url('../images/bg-pattern.png')] bg-no-repeat">
+    <!-- Navbar Start -->
+    <div class="flex flex-col">
+        <nav id="nav" class="py-8 md:border-b-0 border-b" role="navigation">
+            <div class="container flex flex-wrap items-center md:flex-no-wrap">
+                <a class='flex' href=''>
+                    <i class="icofont-bird-wings text-black text-[42px]"></i>
+                </a>
+                <h2>Google Company</h2>
+                <div class="ml-auto md:hidden">
+                    <button data-fc-target="menu" data-fc-type="collapse" class="flex items-center rounded"
+                        type="button">
+                        <i class="pe-7s-menu text-3xl"></i>
+                    </button>
+                </div>
+                <div id="menu"
+                    class="w-full md:w-auto transition-all ease-out duration-300 md:transition-none md:flex-grow md:flex md:items-center hidden overflow-hidden">
+                    <ul id="ulMenu"
+                        class="flex flex-col duration-300 ease-out sm:transition-none md:flex-row ml-auto mt-5 md:mt-0">
+                        <li>
+                            <a class='lg:px-6 font-semibold block hover:text-blue-500 p-3 uppercase text-sm' href='index.html'
+                                title='Home'>Home</a>
+                        </li>
+                        <li>
+                            <a class='lg:px-6 font-semibold block text-black/70 hover:text-blue-500 p-3 uppercase text-sm'
+                                href='about.html' title='About'>About Us</a>
+                        </li>
+                        <li>
+                            <a class='lg:px-6 font-semibold block text-black/70 text-blue-500 p-3 uppercase text-sm'
+                                href='work.html' title='Work'>Virtual Volunteering</a>
+                        </li>
+                        <li>
+                            <a class='lg:px-6 font-semibold block text-black/70 hover:text-blue-500 p-3 uppercase text-sm'
+                                href='contact.html' title='Contact'>Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Section Start -->
+    <section class="section py-14" id="home">
+        <div class="container">
+            <div class="lg:flex justify-center">
+                <div class="lg:w-2/3 mx-2">
+                    <div class="text-center">
+                        <h1 class="text-4xl font-semibold leading-[50px] tracking-wide text-transparent bg-clip-text bg-gradient-to-l from-pink-400 to-blue-600 mb-10">
+                            Virtual Volunteering
+                        </h1>
+                        <p class="text-base text-gray-400">Discover the power of virtual volunteering and make a lasting impact from anywhere in the world. Our virtual volunteering program offers a unique opportunity to connect with students in rural classrooms, share your knowledge, and inspire future generations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section End -->
+
+
+    <!-- shuffle portfolio -->
+    <section class="section">
+        <div class="container">
+            <!--end /div-->
+
+            <div id="grid" class="md:flex justify-center">
+                <div class="md:w-3/3 p-3 picture-item" data-groups='["mockup"]'>
+                    <div class="relative block overflow-hidden rounded group transition-all duration-500">
+                        <img src="static/picture/v1.jpg" class="rounded transition-all duration-500 group-hover:scale-105" alt="work-image">
+                        <a href="#" class="absolute inset-3 flex items-end cursor-pointer rounded bg-white p-3 opacity-0 transition-all duration-500 group-hover:opacity-80">
+                            <div>
+                                <p class="text-sm text-gray-400">Media, Icons</p>
+                                <h6 class="text-base text-black font-medium">Open Imagination</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="border-t py-8">
+        <div class="container">
+
+            <div class="flex">
+                <div class="w-full">
+                    <div class="text-center">
+                        <a class='text-6xl text-black' href='index.html'><i class="icofont-bird-wings"></i></a>
+                        <h4 class="font-bold text-lg mt-2 uppercase">Zova</h4>
+
+                        <ul class="flex justify-center mt-8 gap-3">
+                            <li>
+                                <a class="w-11 h-11 rounded flex items-center justify-center text-lg bg-gray-100 text-black hover:text-white hover:bg-blue-500 transition-all" href="javascript:void(0)"> <i class="icofont-facebook"></i> </a>
+                            </li>
+                            <li>
+                                <a class="w-11 h-11 rounded flex items-center justify-center text-lg bg-gray-100 text-black hover:text-white hover:bg-blue-500 transition-all" href="javascript:void(0)"> <i class="icofont-twitter"></i> </a>
+                            </li>
+                            <li>
+                                <a class="w-11 h-11 rounded flex items-center justify-center text-lg bg-gray-100 text-black hover:text-white hover:bg-blue-500 transition-all" href="javascript:void(0)"> <i class="icofont-whatsapp"></i> </a>
+                            </li>
+                        </ul>
+
+                        <p class="text-muted mt-8"> Copyright &copy; 2024.Company name All rights reserved.<a target="_blank" href=""></a></p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- end row -->
+
+        </div>
+    </footer>
+
+    <!-- Pligon js -->
+    <script src="static/js/frostui.js"></script>
+
+    <!-- Shuffle JS -->
+    <script src="static/js/shuffle.min.js"></script>
+    <script src="static/js/gallery.js"></script>
+
+    <!-- App js -->
+    <script src="static/js/app.js"></script>
+
+
+</body>
+
+</html>
